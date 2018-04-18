@@ -13,7 +13,19 @@ public class NovoPacientePanel extends JFrame {
 	
 	private JTextField nome;
 	private JTextField sobrenome;
+	private JTextField dtnascimento;
+	private JTextField idade;
+	private JTextField cpf;
+	private JTextField profissao;
+	private JTextField observacao;
+	private JTextField endereco;
+	private JTextField cidade;
+	private JTextField estado;
+	private JTextField cep;
+	private JTextField telefone;
 	private JComboBox sexo;
+	
+	
 	
 	public NovoPacientePanel(String name) {
 		super(name);
@@ -27,6 +39,16 @@ public class NovoPacientePanel extends JFrame {
 		nome = new JTextField(10);
 		sobrenome = new JTextField(10);
 		sexo = new JComboBox();
+		dtnascimento = new JTextField(10);
+		idade = new JTextField(10);
+		cpf = new JTextField(10);
+		profissao = new JTextField(10);
+		observacao = new JTextField(10);
+		endereco = new JTextField(10);
+		cidade = new JTextField(10);
+		estado = new JTextField(10);
+		cep = new JTextField(10);
+		telefone = new JTextField(10);
 		DefaultComboBoxModel sexomodel = new DefaultComboBoxModel();
 		sexomodel.addElement("Masculino");
 		sexomodel.addElement("Feminino");
